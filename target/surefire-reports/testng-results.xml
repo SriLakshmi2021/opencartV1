@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OpenCart TestSuite" duration-ms="12430" started-at="2021-03-24T20:50:17 MST" finished-at="2021-03-24T20:50:29 MST">
+    <groups>
+    </groups>
+    <test name="OpenCart Tests" duration-ms="12430" started-at="2021-03-24T20:50:17 MST" finished-at="2021-03-24T20:50:29 MST">
+      <class name="testCases.TC_004Search">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_004Search@23d2a7e8]" name="setup" is-config="true" duration-ms="2844" started-at="2021-03-24T20:50:17 MST" finished-at="2021-03-24T20:50:20 MST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_search()[pri:0, instance:testCases.TC_004Search@23d2a7e8]" name="test_search" duration-ms="8744" started-at="2021-03-24T20:50:20 MST" finished-at="2021-03-24T20:50:29 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_search -->
+        <test-method status="PASS" signature="teadDown()[pri:0, instance:testCases.TC_004Search@23d2a7e8]" name="teadDown" is-config="true" duration-ms="634" started-at="2021-03-24T20:50:29 MST" finished-at="2021-03-24T20:50:29 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_004Search -->
+    </test> <!-- OpenCart Tests -->
+  </suite> <!-- OpenCart TestSuite -->
+</testng-results>
