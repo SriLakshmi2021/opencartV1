@@ -32,7 +32,7 @@ import org.openqa.selenium.support.PageFactory;
   	  WebElement txtPassword;
   	
   	  @FindBy(name="confirm")
-   	WebElement txtConfirmPassword;
+    	WebElement txtConfirmPassword;
   	
       @FindBy(name="agree")
       WebElement chkdPolicy;
