@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="OpenCart TestSuite" duration-ms="19884" started-at="2021-03-28T16:22:46 MST" finished-at="2021-03-28T16:23:06 MST">
+  <suite name="OpenCart TestSuite" duration-ms="21494" started-at="2021-03-29T13:18:08 MST" finished-at="2021-03-29T13:18:30 MST">
     <groups>
     </groups>
-    <test name="OpenCart Tests" duration-ms="19884" started-at="2021-03-28T16:22:46 MST" finished-at="2021-03-28T16:23:06 MST">
-      <class name="testCases.TC_005_Addcart">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_005_Addcart@47db50c5]" name="setup" is-config="true" duration-ms="3058" started-at="2021-03-28T16:22:46 MST" finished-at="2021-03-28T16:22:49 MST">
+    <test name="OpenCart Tests" duration-ms="21494" started-at="2021-03-29T13:18:08 MST" finished-at="2021-03-29T13:18:30 MST">
+      <class name="testCases.TC_006_ProductCompare">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_006_ProductCompare@47db50c5]" name="setup" is-config="true" duration-ms="2855" started-at="2021-03-29T13:18:09 MST" finished-at="2021-03-29T13:18:11 MST">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test_addcart()[pri:0, instance:testCases.TC_005_Addcart@47db50c5]" name="test_addcart" duration-ms="15881" started-at="2021-03-28T16:22:49 MST" finished-at="2021-03-28T16:23:05 MST">
+        <test-method status="PASS" signature="test_productcompare()[pri:0, instance:testCases.TC_006_ProductCompare@47db50c5]" name="test_productcompare" duration-ms="17742" started-at="2021-03-29T13:18:11 MST" finished-at="2021-03-29T13:18:29 MST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_addcart -->
-        <test-method status="PASS" signature="teadDown()[pri:0, instance:testCases.TC_005_Addcart@47db50c5]" name="teadDown" is-config="true" duration-ms="690" started-at="2021-03-28T16:23:05 MST" finished-at="2021-03-28T16:23:06 MST">
+        </test-method> <!-- test_productcompare -->
+        <test-method status="PASS" signature="teadDown()[pri:0, instance:testCases.TC_006_ProductCompare@47db50c5]" name="teadDown" is-config="true" duration-ms="630" started-at="2021-03-29T13:18:29 MST" finished-at="2021-03-29T13:18:30 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teadDown -->
-      </class> <!-- testCases.TC_005_Addcart -->
+      </class> <!-- testCases.TC_006_ProductCompare -->
     </test> <!-- OpenCart Tests -->
   </suite> <!-- OpenCart TestSuite -->
 </testng-results>
