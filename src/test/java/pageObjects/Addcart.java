@@ -23,11 +23,14 @@ public class Addcart
 		@FindBy(xpath="//span[normalize-space()='Add to Cart']")
 		WebElement addcart;
 		
-		@FindBy(xpath="//button[@class='btn btn-inverse btn-block btn-lg dropdown-toggle']")
-		WebElement viewcart;
+		//@FindBy(xpath="//button[@class='btn btn-inverse btn-block btn-lg dropdown-toggle']")
+		//WebElement viewcart;
 		
-		@FindBy(xpath="//strong[normalize-space()='View Cart']")
-		WebElement view;
+		//@FindBy(xpath="//strong[normalize-space()='View Cart']")
+		//WebElement view;
+		
+		@FindBy(xpath="//div[@class='alert alert-success alert-dismissible']")
+		WebElement msgconfm;
 		
 		
 		public void search_txt(String text)
@@ -45,13 +48,27 @@ public class Addcart
 			addcart.click();
 		}
       
-		public void viewcart()
-		{
-			viewcart.click();
-			}
+	//	public void viewcart()
+	//	{
+		//	viewcart.click();
+	//		}
 		
-		public void view()
-		{
-			view.click();
-		}
+		//public void view()
+	//	{
+		//	view.click();
+	//	}
+		
+		 public String getConfirmationMsg()
+	      {
+	    	  try
+	    	  {
+	    		  return (msgconfm.getText());
+	    	  }
+	    	  catch(Exception e)
+	    	  {
+	    		  return(e.getMessage());
+	    			  
+	    	  }
+		
+}
 }

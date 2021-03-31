@@ -6,18 +6,14 @@
   </listeners>
   <test thread-count="2" name="OpenCart Tests(failed)(failed)" parallel="tests">
     <parameter name="browser" value="chrome"/>
-    <groups>
-      <run>
-        <include name="master"/>
-      </run>
-    </groups>
     <classes>
-      <class name="testCases.TC_001_AccountRegistration">
+      <class name="testCases.TC_007_WishList">
         <methods>
+          <include name="teadDown"/>
           <include name="setup"/>
-          <include name="test_account_Registration"/>
+          <include name="test_wishlist"/>
         </methods>
-      </class> <!-- testCases.TC_001_AccountRegistration -->
+      </class> <!-- testCases.TC_007_WishList -->
     </classes>
   </test> <!-- OpenCart Tests(failed)(failed) -->
 </suite> <!-- Failed suite [Failed suite [OpenCart TestSuite]] -->

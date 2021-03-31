@@ -20,6 +20,9 @@ public class SearchPage
 		@FindBy(xpath="//button[@class='btn btn-default btn-lg']")
 		WebElement searchbutton;
 		
+				
+		@FindBy(xpath="//p[contains(text(),'There is no product that matches the search criter')]")
+		WebElement msgco;
 		
 		public void searchtxt(String text)
 	      {
@@ -30,7 +33,22 @@ public class SearchPage
 		{
 			searchbutton.click();
 		}
-	}
 		
-
+		
+		public boolean isPageExists()
+		{
+			try
+			{
+			return (msgco.isDisplayed());
+			}
+			catch(Exception e)
+			{
+				return(false);
+			}
+		}
+		
+		
+		 
+		
+}
 

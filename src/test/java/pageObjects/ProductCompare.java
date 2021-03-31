@@ -25,12 +25,8 @@ public class ProductCompare
 		
 		@FindBy(xpath="//i[@class='fa fa-exchange']")
 		WebElement productcompare;//productcompare icon
-		
-		//@FindBy(linkText="Product Compare")
-	
-		//driver.findElement(By.linkText("org.openqa.selenium")).click();
-//@FindBy(xpath="//div[contains(text(),'Product Compare (1)')]")
-@FindBy(xpath="//a[@id='compare-total']")
+				
+        @FindBy(xpath="//a[@id='compare-total']")
          WebElement productlink;
 		
 		public void search_txt(String text)
