@@ -16,9 +16,12 @@
                   <class name="testCases.TC_003_LoginDDT"/>
             <class name="testCases.TC_004Search"/> 
             <class name="testCases.TC_005_Addcart"/>
-             <class name="testCases.TC_004Search"/> -->
+             <class name="testCases.TC_004Search"/> 
             <class name="testCases.TC_007_WishList"/>
-            
+            <class name="testCases.TC_008_ProductDisplayPage"/>
+            <class name="testCases.TC_009_ForgotPassword"/>
+             <class name="testCases.TC_008_ProductDisplayPage"/>-->
+            <class name="testCases.TC_010_ShoppingCart"/>
       </classes>
    </test>
       

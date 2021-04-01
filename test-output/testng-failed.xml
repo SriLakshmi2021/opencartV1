@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite thread-count="2" name="Failed suite [OpenCart TestSuite]" parallel="tests">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="2" name="OpenCart Tests(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_007_WishList">
+      <class name="testCases.TC_010_ShoppingCart">
         <methods>
           <include name="teadDown"/>
+          <include name="test_ShoppingCart"/>
           <include name="setup"/>
-          <include name="test_wishlist"/>
         </methods>
-      </class> <!-- testCases.TC_007_WishList -->
+      </class> <!-- testCases.TC_010_ShoppingCart -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- OpenCart Tests(failed) -->
+</suite> <!-- Failed suite [OpenCart TestSuite] -->
