@@ -34,16 +34,16 @@ public class TC_005_Addcart extends BaseClass
 		
 		ac.addcart();
 		logger.info("product added to cart");
-		Thread.sleep(2000);
-	//	ac.viewcart();
-	//	Thread.sleep(3000);
-	//	logger.info("product added to viewcart");
+		Thread.sleep(2000);//
+		ac.viewcart();
+		Thread.sleep(3000);
+		logger.info("product added to viewcart");
 		
-	//	ac.view();
-		//Thread.sleep(3000);
-	//	logger.info("product added to view");
+		ac.view();
+		Thread.sleep(3000);
+		logger.info("product added to view");
 		
-		 String confmg=ac.getConfirmationMsg();
+		 String confmg=ac.getConfirmationMsg();//
 		   
 		    if(confmg.equals("Success: You have added iMac to your shopping cart!"))
 	        	
@@ -53,7 +53,7 @@ public class TC_005_Addcart extends BaseClass
 	 		}
 	 		else
 	 		{
-	 			logger.error("Search Page Failed ");
+	 			logger.error("Add cart  Page Failed ");
 				captureScreen(driver, "test_search"); 
 				
 				Assert.assertTrue(false);
@@ -62,7 +62,7 @@ public class TC_005_Addcart extends BaseClass
 	    	}
 	    	catch(Exception e)
 	    	{
-	    	logger.fatal("Search Failed");
+	    	logger.fatal("Add cart  Failed");
 	    	Assert.fail();
 	    	
 	    	}

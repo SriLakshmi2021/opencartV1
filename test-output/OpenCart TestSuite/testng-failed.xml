@@ -7,20 +7,6 @@
   <test thread-count="2" name="OpenCart Tests(failed)" parallel="tests">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_003_LoginDDT">
-        <methods>
-          <include name="teadDown"/>
-          <include name="setup"/>
-          <include name="test_LoginDDT" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- testCases.TC_003_LoginDDT -->
-      <class name="testCases.TC_011_Checkout">
-        <methods>
-          <include name="teadDown"/>
-          <include name="test_checkout"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_011_Checkout -->
       <class name="testCases.TC_005_Addcart">
         <methods>
           <include name="teadDown"/>
@@ -28,6 +14,13 @@
           <include name="setup"/>
         </methods>
       </class> <!-- testCases.TC_005_Addcart -->
+      <class name="testCases.TC_011_Checkout">
+        <methods>
+          <include name="teadDown"/>
+          <include name="test_checkout"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_011_Checkout -->
     </classes>
   </test> <!-- OpenCart Tests(failed) -->
 </suite> <!-- Failed suite [OpenCart TestSuite] -->
