@@ -35,35 +35,46 @@ public class TC_010_ShoppingCart  extends BaseClass
 	  Thread.sleep(5000);
 		 
 	  sc.dropdown();
+	  logger.info("Use Coupon Code Clicked");
 	  Thread.sleep(2000);
 	  
 	  sc.drptext("EKm209");
+	  logger.info("Entered Use Coupon Code ");
 	    
 	  sc.drpdown2();
+	  logger.info("Estimated Shipping and Taxes clicked");
 	  Thread.sleep(1000);
 	  sc.select_list();
+	  logger.info("Selected Country");
 	  Thread.sleep(3000);
 	  
 	  sc.select_list2();
+	  logger.info("Selected State");
 	  Thread.sleep(1000);
 	  
 	  sc.select_text("85383");
+	  logger.info("Selected PostCode");
 	  Thread.sleep(1000);
 	  sc.select_getquote();
+	  logger.info("Get Quotes button clicked");
 	  sc.select_radio();
+	  logger.info("Selected Radio button");
 	  Thread.sleep(1000);
 	  sc.select_applyship();
-	  
+	  logger.info("Clicked Apply Shippiment");
 	  Thread.sleep(5000);
 	  
 	  sc.select_gift();
-	  
+	  logger.info("Selected Use Gift Certificate");
 	  sc.select_giftcertifi("X2D4B44");
+	  logger.info("Entered Gift certificate cade entered in the text box");
 	  Thread.sleep(1000);
 	  sc.select_buttongc();
+	  logger.info("clicked Entered Apply Gift Certificate");
 	  Thread.sleep(1000);
 	  
 	  sc.click_continue();
+	  logger.info("click on Continue Shopping");
 	  Thread.sleep(3000); 
 	  
 }
