@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>OpenCart Tests</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>29/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Apr 05 16:13:07 MST 2021</td>
+<td>Started on:</td><td>Mon Apr 05 17:00:49 MST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>45 seconds (45734 ms)</td>
+<tr><td>Total time:</td><td>540 seconds (540328 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,98 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.TC_005_Addcart.test_addcart()'><b>test_addcart</b><br>Test class: testCases.TC_005_Addcart</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at testCases.TC_005_Addcart.test_addcart(TC_005_Addcart.java:59)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1149570300", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1149570300'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at testCases.TC_005_Addcart.test_addcart(TC_005_Addcart.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>27</td>
+<td>testCases.TC_005_Addcart@5123a213</td></tr>
+<tr>
+<td title='testCases.TC_011_Checkout.test_checkout()'><b>test_checkout</b><br>Test class: testCases.TC_011_Checkout</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at testCases.TC_011_Checkout.test_checkout(TC_011_Checkout.java:57)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1810637102", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1810637102'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at testCases.TC_011_Checkout.test_checkout(TC_011_Checkout.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>15</td>
+<td>testCases.TC_011_Checkout@35a50a4c</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,25 +167,150 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='testCases.TC_015_AddressBook.test_Addressbook()'><b>test_Addressbook</b><br>Test class: testCases.TC_015_AddressBook</td>
+<td></td>
+<td>16</td>
+<td>testCases.TC_015_AddressBook@4516af24</td></tr>
+<tr>
+<td title='testCases.TC_026_HeaderMenuFooterOptions.test_HeaderFooterMenuOptions()'><b>test_HeaderFooterMenuOptions</b><br>Test class: testCases.TC_026_HeaderMenuFooterOptions</td>
+<td></td>
+<td>12</td>
+<td>testCases.TC_026_HeaderMenuFooterOptions@15b3e5b</td></tr>
+<tr>
+<td title='testCases.TC_027_GiftCertificate.test_HeaderFooterMenuOptions()'><b>test_HeaderFooterMenuOptions</b><br>Test class: testCases.TC_027_GiftCertificate</td>
+<td></td>
+<td>16</td>
+<td>testCases.TC_027_GiftCertificate@61ca2dfa</td></tr>
+<tr>
+<td title='testCases.TC_002_Login.test_Login()'><b>test_Login</b><br>Test class: testCases.TC_002_Login</td>
+<td></td>
+<td>9</td>
+<td>testCases.TC_002_Login@fe18270</td></tr>
+<tr>
 <td title='testCases.TC_003_LoginDDT.test_LoginDDT()'><b>test_LoginDDT</b><br>Test class: testCases.TC_003_LoginDDT<br>Parameters: srivenfamily@yahoo.com, project1234, Valid</td>
 <td></td>
-<td>5</td>
-<td>testCases.TC_003_LoginDDT@481a15ff</td></tr>
+<td>3</td>
+<td>testCases.TC_003_LoginDDT@6fb0d3ed</td></tr>
 <tr>
 <td title='testCases.TC_003_LoginDDT.test_LoginDDT()'><b>test_LoginDDT</b><br>Test class: testCases.TC_003_LoginDDT<br>Parameters: lakshmi@yahoo.com, Laxmi, Invalid</td>
 <td></td>
 <td>11</td>
-<td>testCases.TC_003_LoginDDT@481a15ff</td></tr>
+<td>testCases.TC_003_LoginDDT@6fb0d3ed</td></tr>
 <tr>
 <td title='testCases.TC_003_LoginDDT.test_LoginDDT()'><b>test_LoginDDT</b><br>Test class: testCases.TC_003_LoginDDT<br>Parameters: laksh@yahoo.com, Lakshmi, Invalid</td>
 <td></td>
 <td>11</td>
-<td>testCases.TC_003_LoginDDT@481a15ff</td></tr>
+<td>testCases.TC_003_LoginDDT@6fb0d3ed</td></tr>
 <tr>
 <td title='testCases.TC_003_LoginDDT.test_LoginDDT()'><b>test_LoginDDT</b><br>Test class: testCases.TC_003_LoginDDT<br>Parameters: laks@yahoo.com, xyz, Invalid</td>
 <td></td>
 <td>11</td>
-<td>testCases.TC_003_LoginDDT@481a15ff</td></tr>
+<td>testCases.TC_003_LoginDDT@6fb0d3ed</td></tr>
+<tr>
+<td title='testCases.TC_013_MyAccountInformation.test_MyAccountInformation()'><b>test_MyAccountInformation</b><br>Test class: testCases.TC_013_MyAccountInformation</td>
+<td></td>
+<td>15</td>
+<td>testCases.TC_013_MyAccountInformation@103f852</td></tr>
+<tr>
+<td title='testCases.TC_012_MyAccount.test_Myaccount()'><b>test_Myaccount</b><br>Test class: testCases.TC_012_MyAccount</td>
+<td></td>
+<td>18</td>
+<td>testCases.TC_012_MyAccount@1f021e6c</td></tr>
+<tr>
+<td title='testCases.TC_022_Newsletter.test_Newletter()'><b>test_Newletter</b><br>Test class: testCases.TC_022_Newsletter</td>
+<td></td>
+<td>20</td>
+<td>testCases.TC_022_Newsletter@44a3ec6b</td></tr>
+<tr>
+<td title='testCases.TC_023_Affiliate.test_Newletter()'><b>test_Newletter</b><br>Test class: testCases.TC_023_Affiliate</td>
+<td></td>
+<td>15</td>
+<td>testCases.TC_023_Affiliate@71623278</td></tr>
+<tr>
+<td title='testCases.TC_016_OderHistory.test_OrderHistory()'><b>test_OrderHistory</b><br>Test class: testCases.TC_016_OderHistory</td>
+<td></td>
+<td>10</td>
+<td>testCases.TC_016_OderHistory@4ae82894</td></tr>
+<tr>
+<td title='testCases.TC_021_RecurringPayment.test_RecurringPayment()'><b>test_RecurringPayment</b><br>Test class: testCases.TC_021_RecurringPayment</td>
+<td></td>
+<td>11</td>
+<td>testCases.TC_021_RecurringPayment@7e9a5fbe</td></tr>
+<tr>
+<td title='testCases.TC_019_Returns.test_Returns()'><b>test_Returns</b><br>Test class: testCases.TC_019_Returns</td>
+<td></td>
+<td>11</td>
+<td>testCases.TC_019_Returns@1da51a35</td></tr>
+<tr>
+<td title='testCases.TC_018_RewardPoints.test_RewardPoint()'><b>test_RewardPoint</b><br>Test class: testCases.TC_018_RewardPoints</td>
+<td></td>
+<td>12</td>
+<td>testCases.TC_018_RewardPoints@6d3af739</td></tr>
+<tr>
+<td title='testCases.TC_010_ShoppingCart.test_ShoppingCart()'><b>test_ShoppingCart</b><br>Test class: testCases.TC_010_ShoppingCart</td>
+<td></td>
+<td>39</td>
+<td>testCases.TC_010_ShoppingCart@281e3708</td></tr>
+<tr>
+<td title='testCases.TC_001_AccountRegistration.test_account_Registration()'><b>test_account_Registration</b><br>Test class: testCases.TC_001_AccountRegistration</td>
+<td></td>
+<td>12</td>
+<td>testCases.TC_001_AccountRegistration@10d59286</td></tr>
+<tr>
+<td title='testCases.TC_014_ChangePassword.test_changepassword()'><b>test_changepassword</b><br>Test class: testCases.TC_014_ChangePassword</td>
+<td></td>
+<td>18</td>
+<td>testCases.TC_014_ChangePassword@587c290d</td></tr>
+<tr>
+<td title='testCases.TC_024_ContactUs.test_contactus()'><b>test_contactus</b><br>Test class: testCases.TC_024_ContactUs</td>
+<td></td>
+<td>15</td>
+<td>testCases.TC_024_ContactUs@768b970c</td></tr>
+<tr>
+<td title='testCases.TC_025_SpecialOffer.test_contactus()'><b>test_contactus</b><br>Test class: testCases.TC_025_SpecialOffer</td>
+<td></td>
+<td>14</td>
+<td>testCases.TC_025_SpecialOffer@5a4041cc</td></tr>
+<tr>
+<td title='testCases.TC_028_Currency.test_currency()'><b>test_currency</b><br>Test class: testCases.TC_028_Currency</td>
+<td></td>
+<td>11</td>
+<td>testCases.TC_028_Currency@4b53f538</td></tr>
+<tr>
+<td title='testCases.TC_017_Downloads.test_downloads()'><b>test_downloads</b><br>Test class: testCases.TC_017_Downloads</td>
+<td></td>
+<td>11</td>
+<td>testCases.TC_017_Downloads@543788f3</td></tr>
+<tr>
+<td title='testCases.TC_009_ForgotPassword.test_forgotpassword()'><b>test_forgotpassword</b><br>Test class: testCases.TC_009_ForgotPassword</td>
+<td></td>
+<td>15</td>
+<td>testCases.TC_009_ForgotPassword@68ceda24</td></tr>
+<tr>
+<td title='testCases.TC_006_ProductCompare.test_productcompare()'><b>test_productcompare</b><br>Test class: testCases.TC_006_ProductCompare</td>
+<td></td>
+<td>16</td>
+<td>testCases.TC_006_ProductCompare@52525845</td></tr>
+<tr>
+<td title='testCases.TC_008_ProductDisplayPage.test_productdisplay()'><b>test_productdisplay</b><br>Test class: testCases.TC_008_ProductDisplayPage</td>
+<td></td>
+<td>17</td>
+<td>testCases.TC_008_ProductDisplayPage@24b1d79b</td></tr>
+<tr>
+<td title='testCases.TC_004Search.test_search()'><b>test_search</b><br>Test class: testCases.TC_004Search</td>
+<td></td>
+<td>17</td>
+<td>testCases.TC_004Search@6dde5c8c</td></tr>
+<tr>
+<td title='testCases.TC_020_Transections.test_transections()'><b>test_transections</b><br>Test class: testCases.TC_020_Transections</td>
+<td></td>
+<td>12</td>
+<td>testCases.TC_020_Transections@16022d9d</td></tr>
+<tr>
+<td title='testCases.TC_007_WishList.test_wishlist()'><b>test_wishlist</b><br>Test class: testCases.TC_007_WishList</td>
+<td></td>
+<td>26</td>
+<td>testCases.TC_007_WishList@3b94d659</td></tr>
 </table><p>
 </body>
 </html>
